@@ -17,4 +17,7 @@ RUN apt-get upgrade -y
 RUN apt-get install -y sudo qt5-default qttools5-dev-tools python3-pyqt5 pyqt5-dev-tools python3-pip
 RUN pip3 install --upgrade pip
 
+# requirements for zeroconf
+RUN apt-get install -y python3-netifaces
+
 ENTRYPOINT ./idle.sh
