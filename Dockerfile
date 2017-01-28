@@ -16,6 +16,5 @@ RUN apt-get update
 RUN apt-get upgrade -y
 RUN apt-get install -y sudo qt5-default qttools5-dev-tools python3-pyqt5 pyqt5-dev-tools python3-pip
 RUN pip3 install --upgrade pip
-RUN pip3 install tftpy
 
 ENTRYPOINT ./idle.sh
