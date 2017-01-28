@@ -168,13 +168,7 @@
           </layout>
          </item>
          <item>
-          <widget class="QListWidget" name="listParameter">
-           <item>
-            <property name="text">
-             <string>null</string>
-            </property>
-           </item>
-          </widget>
+          <widget class="QListWidget" name="listParameter"/>
          </item>
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="15,0,0,0">
